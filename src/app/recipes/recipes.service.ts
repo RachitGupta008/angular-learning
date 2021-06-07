@@ -40,5 +40,9 @@ export class RecipeService{
 
       }
 
+      getRecipeById(id: number){
+        return this.recipes[id];
+      }
+
 
 }
